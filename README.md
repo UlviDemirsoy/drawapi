@@ -24,8 +24,6 @@ dotnet ef database update
 
 This API provides **RESTful endpoints** to manage **draws, groups, and teams**.
 
----
-
 ## Draws API (Manage Tournament Draws)
 
 ### Create a New Draw
