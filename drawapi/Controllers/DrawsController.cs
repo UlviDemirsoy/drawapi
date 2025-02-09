@@ -14,7 +14,7 @@ namespace drawapi.Controllers
             _drawService = drawService;
         }
 
-        [HttpGet]
+        [HttpGet("list")]
         public async Task<IActionResult> ListAllDraws()
         {
             var draws = await _drawService.ListAllDrawsAsync();

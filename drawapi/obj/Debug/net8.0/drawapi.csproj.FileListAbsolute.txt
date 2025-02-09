@@ -111,3 +111,4 @@ C:\Users\Ulvi\source\repos\drawapi\drawapi\bin\Debug\net8.0\xunit.abstractions.d
 C:\Users\Ulvi\source\repos\drawapi\drawapi\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\Ulvi\source\repos\drawapi\drawapi\bin\Debug\net8.0\xunit.core.dll
 C:\Users\Ulvi\source\repos\drawapi\drawapi\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\Ulvi\source\repos\drawapi\drawapi\obj\Debug\net8.0\drawapi.sourcelink.json

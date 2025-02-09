@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "drawapi.Controllers.DrawsController",
-    "Method": "ListAllDraws",
-    "RelativePath": "api/draws",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "drawapi.Controllers.DrawsController",
     "Method": "CreateDraw",
     "RelativePath": "api/draws",
     "HttpMethod": "POST",
@@ -47,6 +37,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "drawapi.Controllers.DrawsController",
+    "Method": "ListAllDraws",
+    "RelativePath": "api/draws/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "drawapi.Controllers.GroupsController",
     "Method": "GetGroupById",
     "RelativePath": "api/groups/{id}",
@@ -75,7 +75,7 @@
   {
     "ContainingType": "drawapi.Controllers.TeamsController",
     "Method": "GetTeams",
-    "RelativePath": "api/Teams/list",
+    "RelativePath": "api/teams/list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

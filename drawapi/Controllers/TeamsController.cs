@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace drawapi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/teams")]
     public class TeamsController : Controller
     {
 

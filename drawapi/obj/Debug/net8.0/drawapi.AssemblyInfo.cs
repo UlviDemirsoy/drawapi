@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("drawapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4884fb95f2791acf12ae0ebca223ce546df7c9e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("drawapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("drawapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
