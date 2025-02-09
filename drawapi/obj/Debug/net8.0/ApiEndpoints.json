@@ -1,0 +1,85 @@
+[
+  {
+    "ContainingType": "drawapi.Controllers.DrawsController",
+    "Method": "ListAllDraws",
+    "RelativePath": "api/draws",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "drawapi.Controllers.DrawsController",
+    "Method": "CreateDraw",
+    "RelativePath": "api/draws",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "drawerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "drawapi.Controllers.DrawsController",
+    "Method": "GetDrawById",
+    "RelativePath": "api/draws/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "drawapi.Controllers.GroupsController",
+    "Method": "GetGroupById",
+    "RelativePath": "api/groups/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "drawapi.Controllers.GroupsController",
+    "Method": "GetAllGroups",
+    "RelativePath": "api/groups/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "drawapi.Controllers.TeamsController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Teams/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
